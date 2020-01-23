@@ -35,12 +35,14 @@ div.content02 {
     margin-bottom: 0px;
     position: relative;
     width: 100%;
-    min-height: 700;
+    height: 700px;
     background-color: black;
     text-align: center;
 }
 
 div.rightWrap {
+ position: absolute;
+ right: 0px;
  width: 427px;
  height: 700px;
  background-color: #a0cf32;
@@ -82,3 +84,38 @@ div.content03 {
     background-color: black;
     text-align: center;
 }
+
+div.rightLeft {
+    position: absolute;
+    right: 0px;
+    width: 427px;
+    height: 700px;
+    background-color: #a0cf32;
+    z-index: 9999s;
+   }
+   
+   p.righLeft {
+    width:326.66px;
+    font-family: Kohinoor Bangla;
+    font-size: 16px;
+   }
+   img.rightLeft {
+       margin-top: 168px;
+   }
+   div.wrapConent{
+       width:327px;
+       height: 200px;
+       margin-left:53px ;
+   }
+   button.rightWrap {
+   font-size: 18px;
+   color: #ffffff;
+   font-family: "Kohinoor Bangla";
+   font-weight: 300;
+   text-align: center;
+   width: 150px;
+   height: 35px;
+   border-radius: 10px;
+   border: 1px solid #ffffff;
+   }
+   
