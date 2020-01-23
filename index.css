@@ -80,26 +80,25 @@ div.content03 {
     margin-bottom: 0px;
     position: relative;
     width: 100%;
-    min-height: 700;
+    height: 700px;
     background-color: black;
     text-align: center;
 }
 
-div.rightLeft {
+div.lefttWrap {
     position: absolute;
-    right: 0px;
     width: 427px;
     height: 700px;
     background-color: #a0cf32;
     z-index: 9999s;
    }
    
-   p.righLeft {
+   p.leftWrap {
     width:326.66px;
     font-family: Kohinoor Bangla;
     font-size: 16px;
    }
-   img.rightLeft {
+   img.lefttWrap {
        margin-top: 168px;
    }
    div.wrapConent{
@@ -107,7 +106,7 @@ div.rightLeft {
        height: 200px;
        margin-left:53px ;
    }
-   button.rightWrap {
+   button.lefttWrap {
    font-size: 18px;
    color: #ffffff;
    font-family: "Kohinoor Bangla";
